@@ -1,0 +1,402 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+
+
+
+.title{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    padding-top: 100px;
+    justify-content: center;
+  
+  }
+  
+  .container{
+    width: 100%;
+    position: relative;
+    /* background: #3E3E3F; */
+    background: #FFFFFF;
+    /* z-index: -3; */
+  }
+  
+  .title1{
+    margin-left: 20px;
+    color: black;
+    font-size: 8vh;
+    z-index: 5;
+  }
+  
+  .topbg{
+    padding-top: 61px;
+    position: relative;
+  }
+
+
+  .bg_1{
+    height: 550px;
+    width: 100%;
+    display: block;
+    opacity: 0.8;
+    /* transform: rotate(90deg); */
+  }
+  .titleBg{
+    position: absolute;
+    top: 320px;
+    right: 190px;
+    font-size: 45px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .titleBg2{
+    position: absolute;
+    top: 370px;
+    right: 120px;
+    font-size: 43px;
+  }
+  
+  .typePackage{
+    background: #dad5d2;
+    height: 850px;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+  .imgPackage1{
+    position: absolute;
+     display: inline-block;
+    top: 8%;
+    left: 8%;
+    transition: transform 0.2s ease;
+  }
+    
+    .imgPackage2{
+      position: absolute;
+       display: inline-block;
+      top: 8%;
+      left: 40%;
+      transition: transform 0.2s ease;
+    }
+
+    .imgPackage3{
+      position: absolute;
+       display: inline-block;
+      top: 8%;
+      right: 8%;
+      transition: transform 0.2s ease;
+    }
+    .imgPackage4{
+      position: absolute;
+       display: inline-block;
+      bottom: 5%;
+      left: 8%;
+      transition: transform 0.2s ease;
+    }
+    .imgPackage5{
+      position: absolute;
+       display: inline-block;
+      bottom: 10%;
+      left: 33%;
+      transition: transform 0.2s ease;
+    }
+    .imgPackage6{
+      position: absolute;
+       display: inline-block;
+      bottom: 5%;
+      right: 8%;
+      transition: transform 0.2s ease;
+    }
+
+    .imgPackage1:hover::before,
+    .imgPackage2:hover::before,
+    .imgPackage3:hover::before,
+    .imgPackage4:hover::before,
+    .imgPackage5:hover::before,
+    .imgPackage6:hover::before{
+      position: absolute;
+      top: 58%;
+      left: 35%;
+      display: block;
+      content: "Xem chi tiết";
+      border: #443f37;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: rgba(0, 0, 0, 0.603);
+      color: white;
+    }
+
+    .imgPackage1:hover,
+    .imgPackage2:hover,
+    .imgPackage3:hover,
+    .imgPackage4:hover,
+    .imgPackage5:hover,
+    .imgPackage6:hover{
+      /* border: solid 1px black; */
+     cursor: pointer;
+      transform: scale(1.05); 
+      box-shadow: 2px 6px 4px 5px rgba(0, 0, 0, 0.3);
+      opacity: 0.7;
+    }
+    
+
+/* ///////////////////////////// */
+
+
+    /* .imgPackage1::before,
+    .imgPackage2::before,
+    .imgPackage3::before,
+    .imgPackage4::before,
+    .imgPackage5::before,
+    .imgPackage6::before{
+      content: "Xem chi tiết";
+      display: block;
+      color: black;
+        } */
+  /* tạo spalash(ảnh lồng nhau) */
+  /* .splash{
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    margin-left: 50px;
+    margin-top: 100px;
+    background: url("./best-camera-for-entry-level-4.jpeg");
+    background-size: cover;
+    height: 150px;
+    width: 220px;
+    position: relative;
+    border-radius: 60%;
+    
+  }
+  
+  .splash:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("./splash.jpg");
+    background-size: 100%;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: screen;
+  border-radius: 60%;
+  } */
+  
+
+  .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-top: 100px;
+    height: 300px;
+    /* z-index: 9999; */
+  }
+
+  
+  .title__2{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 28px;
+  }
+  
+  .card__member{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 10px 150px; */
+  }
+  
+  
+  
+  .title__team{
+    display: flex;
+    justify-content: center;
+    /* font-size: larger; */
+    color: aliceblue;
+  }
+  
+  .element{
+    height: 380px;
+    width: 100%;
+    /* background: #4e4e4e; */
+    margin-top: 50px;
+  }
+  
+  .list__element{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+  }
+  ul.list__element>li{
+    /* border: 1px solid; */
+    margin-left: 1%;
+    width: 23%;
+    color: #070707;
+  }
+  
+  ul.list__element>li>span{
+   word-wrap: break-word;
+  }
+  
+  .icon__style{
+    font-size: 50px;
+    margin-right: 10px;
+  }
+  
+  
+  .content__4{
+    /* background:#94846d ; */
+    width: 450px;
+    position: absolute;
+  top: 50px;
+  right: 280px;
+  color: #a3919c;
+  }
+
+  
+  
+  @keyframes moveUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(30px);
+    }
+  
+  }
+  
+  
+  
+  @media screen and (max-width: 800px) {
+    .typePackage{
+      display: none;
+    }
+    .title{
+      color: white;
+      display: flex;
+      margin-top: 15vh;
+      justify-content: center;
+    }
+    
+    .container{
+      position: relative;
+    }
+    .topbg{
+      /* padding-top: 61px; */
+      position: relative;
+      z-index: 50;
+    }
+  
+    .title1{
+      margin-left: 20px;
+      color: black;
+      font-size: 3vh;
+    }
+    
+    .bg_1{
+      position: absolute;
+      top: 1%;
+      right: 0%;
+      z-index: -2;
+      width: 100%;
+      height: 200px;
+    }
+    .titleBg{
+      display: none;
+    }
+    .titleBg2{
+      display: none;
+    }
+    
+    .obj__img{
+      display: none;
+      height: 190px;
+      width: 200px;
+    }
+  
+    /* tạo spalash(ảnh lồng nhau) */
+    /* .splash{
+      position: absolute;
+      top: 0px;
+      left: 20px;
+      margin-left: 50px;
+      margin-top: 100px;
+      background: url("./best-camera-for-entry-level-4.jpeg");
+      background-size: cover;
+      height: 150px;
+      width: 220px;
+      position: relative;
+      border-radius: 60%;
+      
+    }
+    
+    .splash:before{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: url("./splash.jpg");
+      background-size: 100%;
+      background-position: center;
+      width: 100%;
+      height: 100%;
+      mix-blend-mode: screen;
+    border-radius: 60%;
+    } */
+    
+    
+    .slider{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 200px;
+    }
+  
+    .element{
+      height: auto;
+      width: 100%;
+      background: #4e4e4e;
+      margin-top: 50px;
+    }
+    
+    .list__element{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding-top: 3%;
+    }
+    ul.list__element>li{
+      /* border: 1px solid; */
+      margin-left: 1%;
+      width: 80%;
+      color: #070707;
+    }
+    
+    ul.list__element>li>span{
+     word-wrap: break-word;
+    }
+    
+    .icon__style{
+      font-size: 70px;
+      margin-right: 5px;
+    }
+   
+   
+    
+    @keyframes moveUpDown {
+      0% {
+        transform: translateY(0);
+      }
+      100% {
+        transform: translateY(30px);
+      }
+    }
+  }

@@ -1,0 +1,41 @@
+.Brand{
+    display: flex;
+    justify-content: center;
+    height: 240px;
+    background: #bbb1a4;
+    padding-top: 50px;
+    }
+
+.Brand_item{
+    margin-right: 5%;
+    width: 260px;
+    height: 150px;
+}
+.Brand_item2{
+    margin-right: 5%;
+    width: 260px;
+    height: 110px;
+}
+
+    @media screen and (max-width: 700px) {
+        .Brand{
+            display: flex;
+            justify-content: center;
+            height: 100px;
+            background: #bbb1a4;
+            padding-top: 30px;
+            margin-left: 5px;
+            }
+        
+        .Brand_item{
+            margin-right: 5%;
+            width: 76px;
+            height: 40px;
+        }
+        .Brand_item2{
+            margin-right: 5%;
+            margin-top: 6px;
+            width: 260px;
+            height: 20px;
+        }
+    }
